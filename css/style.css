@@ -183,7 +183,7 @@ nav ul li .nav-link {
   left:-40px;
   z-index: 500;
 }
-.rotate-circle {
+.rotate-circle ,.rotate2-circle {
    width: 30px;
   height: 30px;
   border: 4px solid #ff9966; 
@@ -193,6 +193,9 @@ nav ul li .nav-link {
   top: 0;
   right: 10px;
   z-index: 500;   
+}
+.rotate2-circle {
+left: 5px;
 }
 
 @keyframes spin {
@@ -257,6 +260,7 @@ nav ul li .nav-link {
     }
 
 }
+
 
 /* About */
 
@@ -562,8 +566,8 @@ background-color: #f9f9ff
 .service-box {
   background-color: #ffffff;
   border-radius: 12px;
-  padding: 30px 20px;
-  width: 360px;
+  padding: 30px 0;
+  width: 320px;
   text-align: center;
   box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.06);
 }
@@ -615,6 +619,7 @@ background-color: palevioletred;
   color: #666;
   line-height: 1.6;
 }
+
 .circle-wrapper {
   position: relative;
   width: 60px;
